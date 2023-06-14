@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+
+body {
+    text-align: center;
+    font-family: sans-serif;
+    background:url("imges/fondo\ inicio.jpg");
+}
+
+.head {
+    background: #e91e63;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 63px;
+    background: #171717;
+    width: 100%;
+    z-index: 100;
+    text-align: center;
+    letter-spacing:0.2em;
+   }
+   .logo {
+    margin-left: 30px;
+}
+
+.logo a {
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+.title {
+    margin-bottom: 40px;
+    font-size: 60px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #fff;
+}
+.btn {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 40px;
+    border: 2px solid #eee2e6;
+    color: #fff;
+    text-decoration: none;
+    background: #dcc8cf;
+}
+.flotar{
+    float: left;
+}
+
+.content {
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.head2{
+        background: #d8d0d3;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 63px;
+    background: #171717;
+    width: 100%;
+    z-index: 100;
+    text-align: center;
+    letter-spacing:0.2em;
+}
+.box-container2{
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+
+    
+}
+
+.box-container2 .box {
+    width: 250px;
+    padding-bottom: 20px;
+    text-align: center;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, .3);
+    background: #171717;
+    margin: 20px 20px;
+}
+.flotar1{
+    float: right;
+}
