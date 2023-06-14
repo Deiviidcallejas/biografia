@@ -260,3 +260,27 @@ p {
     padding: 20px;
     margin: 20px 50px;
 }
+.cajaComidas {
+    background-color: #6e6d6d;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 55px;
+    margin-bottom: 150px;
+}
+#comidas{
+    margin-top: 200px;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-bottom: 60px;
+
+}
+#imagen1comidas{
+    float: left;
+    clear: both;
+    margin-bottom: 60px;
+}
+#imagen2comidas{
+    float: right;
+    clear: both;
+    margin-bottom: 60px;
+}
